@@ -910,7 +910,7 @@ body.popup-show::after {
 }
 
 .no-webp .promo{
-  background: url("../img/mainpage/promo/girl-bg-2.png") 80% 106px/cover no-repeat; }
+  background: url("../img/mainpage/promo/girl-bg-2.png") 80% 106px no-repeat; }
 
 .promo {
   display: -webkit-box;
@@ -2705,12 +2705,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 }
 
-@media (min-width: 120em) {
-  .promo {
-    background-size: 68.75rem;
-  }
-}
-
 @media (max-width: 48em) {
   .header__container {
     min-height: 4.125rem;
@@ -2787,10 +2781,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 
   .header__column_icon {
     margin-left: 0rem;
-  }
-
-  .promo {
-    background-size: 25rem;
   }
 }
 
@@ -3574,12 +3564,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 }
 
-@media (min-width: 20em) and (max-width: 120em) {
-  .promo {
-    background-size: calc(25rem + 43.75 * (((100vw - 20rem)) / ((100))));
-  }
-}
-
 @media (min-width: 48em) and (max-width: 63.75em) {
   .promo__title {
     max-width: calc(31.25rem + 11 * (((100vw - 48rem)) / ((15.75))));
@@ -3621,4 +3605,4 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 
 .webp .bg-item{ background: url(../img/header/bg.webp) center/cover no-repeat; }
 
-.webp .promo{ background: url(../img/mainpage/promo/girl-bg-2.webp) 80% 106px/cover no-repeat; }
+.webp .promo{ background: url(../img/mainpage/promo/girl-bg-2.webp) 80% 106px no-repeat; }
