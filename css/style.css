@@ -909,9 +909,6 @@ body.popup-show::after {
   text-decoration: underline;
 }
 
-.no-webp .promo{
-  background: url("../img/mainpage/promo/girl-bg-2.png") 80% 106px no-repeat; }
-
 .promo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2528,6 +2525,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   -ms-overflow-style: none;
 }
 
+@media (min-width: 47.99875em) {
+  .no-webp .promo{
+    background: url("../img/mainpage/promo/girl-bg-2.png") 80% 106px no-repeat; }
+}
+
 @media (min-width: 63.75em) {
   .promo__title {
     max-width: 42.25rem;
@@ -3087,10 +3089,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     left: -0.125rem;
   }
 
-  .promo {
-    background: none;
-  }
-
   .promo__wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -3605,4 +3603,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 
 .webp .bg-item{ background: url(../img/header/bg.webp) center/cover no-repeat; }
 
-.webp .promo{ background: url(../img/mainpage/promo/girl-bg-2.webp) 80% 106px no-repeat; }
+@media (min-width: 47.99875em){
+
+  .webp .promo{ background: url(../img/mainpage/promo/girl-bg-2.webp) 80% 106px no-repeat; }
+}
